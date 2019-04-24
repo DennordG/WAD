@@ -1,0 +1,40 @@
+D:\Visual Studio Programs\WAD Application\WAD Application\bin\Debug\netcoreapp2.1\WAD Application.deps.json
+D:\Visual Studio Programs\WAD Application\WAD Application\bin\Debug\netcoreapp2.1\WAD Application.runtimeconfig.json
+D:\Visual Studio Programs\WAD Application\WAD Application\bin\Debug\netcoreapp2.1\WAD Application.runtimeconfig.dev.json
+D:\Visual Studio Programs\WAD Application\WAD Application\bin\Debug\netcoreapp2.1\WAD Application.dll
+D:\Visual Studio Programs\WAD Application\WAD Application\bin\Debug\netcoreapp2.1\WAD Application.pdb
+D:\Visual Studio Programs\WAD Application\WAD Application\bin\Debug\netcoreapp2.1\WAD Application.Views.dll
+D:\Visual Studio Programs\WAD Application\WAD Application\bin\Debug\netcoreapp2.1\WAD Application.Views.pdb
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\WAD Application.csproj.CoreCompileInputs.cache
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\WAD Application.RazorAssemblyInfo.cache
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\WAD Application.RazorAssemblyInfo.cs
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\WAD Application.AssemblyInfoInputs.cache
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\WAD Application.AssemblyInfo.cs
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\WAD Application.TagHelpers.input.cache
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\WAD Application.TagHelpers.output.cache
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\WAD Application.RazorCoreGenerate.cache
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\WAD Application.RazorTargetAssemblyInfo.cache
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\WAD Application.RazorTargetAssemblyInfo.cs
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\WAD Application.Views.pdb
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\WAD Application.dll
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\WAD Application.pdb
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\WAD Application.csproj.CopyComplete
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\WAD Application.csprojAssemblyReference.cache
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\Razor\Views\Users\Create.g.cshtml.cs
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\Razor\Views\Users\Delete.g.cshtml.cs
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\Razor\Views\Users\Details.g.cshtml.cs
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\Razor\Views\Users\Edit.g.cshtml.cs
+D:\Visual Studio Programs\WAD Application\WAD Application\obj\Debug\netcoreapp2.1\Razor\Views\Users\Index.g.cshtml.cs
