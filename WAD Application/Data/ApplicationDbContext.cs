@@ -4,14 +4,13 @@ using WAD_Application.Models;
 
 namespace WAD_Application.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext<User>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
         }
 
-        public DbSet<User> AppUsers { get; set; }
         public DbSet<Conversation> Conversations { get; set; }
         public DbSet<UserConversation> UserConversations { get; set; }
         public DbSet<Message> Messages { get; set; }
@@ -21,9 +20,9 @@ namespace WAD_Application.Data
         {
             base.OnModelCreating(builder);
 
-            builder.Entity<UserConversation>().HasOne<User>(uc => uc.User)
+            builder.Entity<UserConversation>().HasOne(uc => uc.User)
                 .WithMany(u => u.UserConversations).HasForeignKey(uc => uc.UserId);
-            builder.Entity<UserConversation>().HasOne<Conversation>(uc => uc.Conversation)
+            builder.Entity<UserConversation>().HasOne(uc => uc.Conversation)
                 .WithMany(u => u.UserConversations).HasForeignKey(uc => uc.ConversationId);
 		}
     }

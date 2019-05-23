@@ -6,7 +6,7 @@ namespace WAD_Application.Models
     {
 		public int UserConversationId { get; set; }
 
-        public int UserId { get; set; }
+        public string UserId { get; set; }
         public User User { get; set; }
 
         public int ConversationId { get; set; }

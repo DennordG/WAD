@@ -12,6 +12,7 @@ using WAD_Application.Services;
 using WAD_Application.Repositories;
 using WAD_Application.Models;
 using WAD_Application.Repositories.Interfaces;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
 namespace WAD_Application
 {
@@ -39,23 +40,38 @@ namespace WAD_Application
 			services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString(DefaultConnection)));
 
 			services.AddTransient<IService<UserConversation>, UserConversationService>();
-			services.AddTransient<IService<User>, UserService>();
 			services.AddTransient<IService<Conversation>, ConversationService>();
 			services.AddTransient<IService<Message>, MessageService>();
 			services.AddTransient<IService<Content>, ContentService>();
 
 			services.AddTransient<IRepository<UserConversation>, Repository<UserConversation>>();
-			services.AddTransient<IRepository<User>, Repository<User>>();
 			services.AddTransient<IRepository<Conversation>, Repository<Conversation>>();
 			services.AddTransient<IRepository<Message>, Repository<Message>>();
 			services.AddTransient<IRepository<Content>, Repository<Content>>();
 
 			services.AddTransient<IUnitOfWork, UnitOfWork>();
 
-			services.AddDefaultIdentity<IdentityUser>()
-				.AddEntityFrameworkStores<ApplicationDbContext>();
+			services.AddSingleton<IEmailSender, EmailSender>();
 
-			services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+			services.AddIdentity<User, IdentityRole>()
+				.AddRoles<IdentityRole>()
+				.AddEntityFrameworkStores<ApplicationDbContext>()
+				.AddDefaultTokenProviders();
+
+			services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
+				.AddRazorPagesOptions(options =>
+			{
+				options.AllowAreas = true;
+				options.Conventions.AuthorizeAreaFolder("Identity", "/Account/Manage");
+				options.Conventions.AuthorizeAreaPage("Identity", "/Account/Logout");
+			});
+
+			services.ConfigureApplicationCookie(options =>
+			{
+				options.LoginPath = $"/Identity/Account/Login";
+				options.LogoutPath = $"/Identity/Account/Logout";
+				options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
+			});
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
